@@ -16,11 +16,6 @@ import com.daw.app.utils.ApiResponse;
 import com.daw.app.utils.GenericController;
 import com.daw.app.utils.GenericCrud;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 4 jun. 2022
- */
 @RestController
 @RequestMapping("/api/tbcargos")
 public class TbCargoController extends GenericController<TbCargo, Integer>{

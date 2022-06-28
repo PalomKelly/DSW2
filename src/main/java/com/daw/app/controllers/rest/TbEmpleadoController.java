@@ -35,11 +35,6 @@ import net.sf.jasperreports.engine.JasperPrint;
 import net.sf.jasperreports.engine.JasperReport;
 import net.sf.jasperreports.engine.util.JRLoader;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 30 may. 2022
- */
 @CrossOrigin
 @RestController
 @RequestMapping("/api/tbempleados")

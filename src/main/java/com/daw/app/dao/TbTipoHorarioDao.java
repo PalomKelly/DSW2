@@ -7,11 +7,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.daw.app.entity.TbTipoHorario;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 5 jun. 2022
- */
 public interface TbTipoHorarioDao extends JpaRepository<TbTipoHorario, Integer> {
 
 }

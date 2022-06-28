@@ -12,11 +12,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.daw.app.services.TbUsuarioService;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 30 may. 2022
- */
 @Controller
 @RequestMapping("/app/usuarios")
 public class UsuarioController {

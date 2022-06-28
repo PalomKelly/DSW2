@@ -20,15 +20,15 @@
 	
   <section class="banner">
 		<div class="banner-content">
-			<h1 class="animate__animated animate__backInDown">Sistema de Ventas</h1>
+			<h1 class="animate__animated animate__backInDown">Sistema de Planillas</h1>
 		</div>
 	</section>
 
 <div class="login-box animate__animated animate__slideInRight">
-  <div class="login-logo ">
-    <a href="../../index2.html"><b class="text-login">Login</b></a>
+  <!--  <div class="login-logo ">
+    <a href="../../index2.html"><b class="text-login">Log-in</b></a>
     
-  </div>
+  </div>-->
   <div th:text="${message}" class="text-danger text-center text-invalido"></div>
   <!-- /.login-logo -->
   <div class="card">
@@ -52,18 +52,9 @@
             </div>
           </div>
         </div>
-        <div class="row justify-content-between">
-          <div class="col-6">
-<!--             <div class="icheck-primary"> -->
-<!--               <input type="checkbox" id="remember"> -->
-<!--               <label for="remember"> -->
-<!--                 Recordar -->
-<!--               </label> -->
-<!--             </div> -->
-          </div>
-          <!-- /.col -->
-          <div class="col-auto">
-            <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
+        <div class="row justify-content-center">
+          <div class="col-auto" style="align-content: center">
+            <button type="submit" class="btn btn-success btn-block">Iniciar Sesión</button>
           </div>
           <!-- /.col -->
         </div>
@@ -83,9 +74,8 @@
 <!--       /.social-auth-links -->
 
 <!--       <p class="mb-1"> -->
-        <a href="forgot-password.html">Olvide mi contraseña</a>
+      </p>
     </div>
-    <br>
     <!-- /.login-card-body -->
   </div>
     

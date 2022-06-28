@@ -17,11 +17,6 @@ import com.daw.app.entity.TbCargo;
 import com.daw.app.exception.CustomException;
 import com.daw.app.services.TbCargoService;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 4 jun. 2022
- */
 @Service
 @Transactional
 public class TbCargoServiceImpl implements TbCargoService {

@@ -19,11 +19,6 @@ import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 3 jun. 2022
- */
 @Service
 public class CustomAuthenticationFailureHandler 
   implements AuthenticationFailureHandler {

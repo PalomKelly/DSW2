@@ -23,11 +23,6 @@ import com.daw.app.exception.CustomException;
 import com.daw.app.services.TbMarcacionService;
 import com.daw.app.services.TbUsuarioService;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 30 may. 2022
- */
 @Transactional
 @Service
 public class TbMarcacionServiceImpl implements TbMarcacionService{

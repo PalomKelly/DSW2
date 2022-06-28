@@ -16,11 +16,6 @@ import com.daw.app.entity.TbArea;
 import com.daw.app.exception.CustomException;
 import com.daw.app.services.TbAreaService;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 30 may. 2022
- */
 @Transactional
 @Service
 public class TbAreaServiceImpl implements TbAreaService{

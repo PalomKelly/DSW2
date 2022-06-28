@@ -24,11 +24,6 @@ import com.daw.app.exception.CustomException;
 import com.daw.app.services.TbEmpleadoService;
 import com.daw.app.services.TbUsuarioService;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 29 may. 2022
- */
 @Transactional
 @Service
 public class TbUsuarioServiceImpl implements TbUsuarioService {

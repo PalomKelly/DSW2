@@ -12,11 +12,6 @@ import com.daw.app.services.TbTipoDocumentoService;
 import com.daw.app.utils.GenericController;
 import com.daw.app.utils.GenericCrud;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 5 jun. 2022
- */
 @RestController
 @RequestMapping("/api/tbtipodocumentos")
 public class TbTipoDocumentoController extends GenericController<TbTipoDocumento, Integer> {

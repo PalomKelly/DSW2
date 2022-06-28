@@ -12,11 +12,6 @@ import com.daw.app.services.TbAreaService;
 import com.daw.app.utils.GenericController;
 import com.daw.app.utils.GenericCrud;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 30 may. 2022
- */
 @RestController
 @RequestMapping("/api/tbareas")
 public class TbAreaController extends GenericController<TbArea, Integer>{

@@ -14,11 +14,6 @@ import com.daw.app.dao.TbTipoDocumentoDao;
 import com.daw.app.entity.TbTipoDocumento;
 import com.daw.app.services.TbTipoDocumentoService;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 5 jun. 2022
- */
 @Transactional
 @Service
 public class TbTipoDocumentoServiceImpl implements TbTipoDocumentoService {

@@ -14,11 +14,6 @@ import com.daw.app.dao.TbSistemaPensionDao;
 import com.daw.app.entity.TbSistemaPension;
 import com.daw.app.services.TbSistemaPensionService;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 5 jun. 2022
- */
 @Service
 @Transactional
 public class TbSistemaPensionServiceImpl implements TbSistemaPensionService {

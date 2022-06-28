@@ -18,11 +18,6 @@ import com.daw.app.exception.CustomException;
 import com.daw.app.services.TbEmpleadoService;
 import com.daw.app.services.TbTipoDocumentoService;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 30 may. 2022
- */
 @Service
 @Transactional
 public class TbEmpleadoServiceImpl implements TbEmpleadoService {

@@ -20,11 +20,6 @@ import com.daw.app.security.CustomAuthenticationFailureHandler;
 import com.daw.app.security.CustomFilter;
 import com.daw.app.security.CustomUserService;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 30 may. 2022
- */
 @Configuration
 @EnableWebSecurity
 public class DawProjectSecurity extends WebSecurityConfigurerAdapter {

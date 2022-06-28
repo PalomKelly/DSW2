@@ -10,11 +10,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 30 may. 2022
- */
 public abstract class GenericController<E, K> {
 
 	public abstract GenericCrud<E, K> getCrud();

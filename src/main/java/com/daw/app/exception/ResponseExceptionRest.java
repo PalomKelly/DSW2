@@ -16,11 +16,6 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 
 import com.daw.app.utils.ApiResponse;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 3 jun. 2022
- */
 @ControllerAdvice(annotations = RestController.class)
 @RestController
 public class ResponseExceptionRest extends ResponseEntityExceptionHandler{

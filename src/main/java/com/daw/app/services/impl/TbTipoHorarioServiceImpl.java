@@ -14,11 +14,6 @@ import com.daw.app.dao.TbTipoHorarioDao;
 import com.daw.app.entity.TbTipoHorario;
 import com.daw.app.services.TbTipoHorarioService;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 5 jun. 2022
- */
 @Service
 @Transactional
 public class TbTipoHorarioServiceImpl implements TbTipoHorarioService {

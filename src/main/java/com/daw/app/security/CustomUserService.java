@@ -18,11 +18,6 @@ import com.daw.app.dao.TbUsuarioDao;
 import com.daw.app.entity.TbUsuario;
 import com.daw.app.services.TbUsuarioService;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 3 jun. 2022
- */
 @Service
 public class CustomUserService implements UserDetailsService {
 

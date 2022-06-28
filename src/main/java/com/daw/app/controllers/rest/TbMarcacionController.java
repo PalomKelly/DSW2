@@ -17,11 +17,6 @@ import com.daw.app.utils.ApiResponse;
 import com.daw.app.utils.GenericController;
 import com.daw.app.utils.GenericCrud;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 30 may. 2022
- */
 @CrossOrigin
 @RestController
 @RequestMapping("/api/tbmarcaciones")

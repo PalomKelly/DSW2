@@ -5,11 +5,6 @@ package com.daw.app.utils;
 
 import lombok.Data;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 30 may. 2022
- */
 @Data
 public class ApiResponse<E> {
 	private Boolean error;

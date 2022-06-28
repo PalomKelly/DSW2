@@ -12,11 +12,6 @@ import com.daw.app.services.TbSistemaPensionService;
 import com.daw.app.utils.GenericController;
 import com.daw.app.utils.GenericCrud;
 
-/**
- * @author Orlando Pasaca
- *
- * @since 5 jun. 2022
- */
 @RestController
 @RequestMapping("/api/tbsistemapensiones")
 public class TbSistemaPensionController extends GenericController<TbSistemaPension, Integer> {
